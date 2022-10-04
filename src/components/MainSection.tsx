@@ -7,7 +7,7 @@ export function MainSection(){
 
       <section className="flex items-center">
 
-        <img  className="ml-[100px] mr-[142px]" src={PeronImage} alt="peron image" />
+        <img  className=" mr-[180px]" src={PeronImage} alt="peron image" />
 
         <div>
           <h1 className="font-extrabold text-5xl  text-[#444444] mb-6">The Future of work</h1>
