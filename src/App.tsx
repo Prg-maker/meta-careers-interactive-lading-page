@@ -1,3 +1,4 @@
+import { MagnifyingGlass } from "phosphor-react";
 import { Header } from "./components/Header";
 import { MainSection } from "./components/MainSection";
 
@@ -9,20 +10,25 @@ function App() {
       <Header />
       <MainSection/>
 
-      <footer className="flex bg-zinc-900 w-[920px] justify-between items-center mt-24 h-[89px] rounded-[50px] ">
+      <footer className="flex bg-white w-[920px]  items-center mt-24 h-[89px] rounded-[50px]  shadow-lg shadow-cyan-500/50  ">
 
-        <div className="flex flex-col  justify-center ">
+        <div className="flex flex-col ml-5 justify-center ">
 
-          <strong>FindOpen Jobs</strong>
-          <span>Search by job title/ref. code</span>
+          <strong className="font-sans font-normal text-[#232323] ">FindOpen Jobs</strong>
+          <span  className="font-sans font-bold">Search by job title/ref. code</span>
 
         </div>
 
-        <div className=""/>
+        <div className="h-1/2 ml-[198px] bg-[#65798A] w-[2px] rounded "/>
 
-        <div className="flex flex-col  justify">
+        <div className="flex flex-col ml-5 justify">
           <strong>Located in</strong>
           <span>Office, data center, or remote locations</span>
+        </div>
+
+
+        <div className="cursor-pointer ml-[140px] bg-[#E9EBEE] rounded-full p-1 items-center justify-center ">
+          <MagnifyingGlass size={32} weight="light" color="#65798A" />
         </div>
       </footer>
 
